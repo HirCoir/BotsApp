@@ -15,7 +15,7 @@ export = {
     demo: { isEnabled: true, text: ['.tts Hello, how are you?', '.tts Hello, how are you? | ja'] },
     async handle(client: Client, chat: proto.IWebMessageInfo, BotsApp: BotsApp, args: string[]): Promise<void> {
         let text: string = '';
-        let langCode: string = "en";
+        let langCode: string = "es";
         if(BotsApp.isTextReply && BotsApp.replyMessage){
             text = BotsApp.replyMessage
         }else if(BotsApp.isTextReply){

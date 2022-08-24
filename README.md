@@ -4,7 +4,7 @@
 
 
 # 💠[BotsApp](https://mybotsapp.com/)💠
-> Your Personal Assisstant, on WhatsApp!
+> ¡Tu asistente personal, en WhatsApp!
 ---
 ![GitHub top language](https://img.shields.io/github/languages/top/BotsAppOfficial/BotsApp) [![GitHub release](https://img.shields.io/github/release/BotsAppOfficial/BotsApp.svg)](https://github.com/bkimminich/juice-shop/releases/latest)
  ![GitHub contributors](https://img.shields.io/github/contributors/BotsAppOfficial/BotsApp) ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/BotsAppOfficial/BotsApp) ![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/BotsAppOfficial/BotsApp) ![GitHub Repo stars](https://img.shields.io/github/stars/BotsAppOfficial/BotsApp?style=social) ![GitHub repo size](https://img.shields.io/github/repo-size/BotsAppOfficial/BotsApp)
@@ -12,20 +12,19 @@
 
 ![Docker Pulls](https://img.shields.io/docker/pulls/princemendiratta/botsapp?style=flat-square&label=Docker+Pulls) ![Docker Image Size](https://img.shields.io/docker/image-size/princemendiratta/botsapp?style=flat-square&label=Docker+Image+Size)
 
-BotsApp is an optimized and easy-to-use WhatsApp UserBot written in Node.js.
+BotsApp es un WhatsApp de userbot de WhatsApp optimizado y fácil de usar escrito en Node.js. 
 
-Utilize your personal chat assistant/group manager to make the most out of WhatsApp.   
+ Utilice su asistente de chat personal/gerente de grupo para aprovechar al máximo WhatsApp. 
 
 
 
-## Documentation
-
+ ## Documentación
 [Documentation Link](https://mybotsapp.com/documentation)
 
 
-## Tutorial
+## Tutorial 
 
-Here's a tutorial to set up BotsApp on your own account in *less than 3 minutes.* For now, the Multi Device Bot can only be used locally, the tutorial for which is attached below.
+Aquí hay un tutorial para configurar BotsApp en su propia cuenta en * Menos de 3 minutos. * Por ahora, el bot del dispositivo múltiple solo se puede usar localmente, cuyo tutorial se adjunta a continuación.
 
 [![How to deploy](https://img.shields.io/badge/How%20To-Deploy-red.svg?logo=Youtube)](https://www.youtube.com/watch?v=tGrjEZ3roY0&ab_channel=BotsApp)
 
@@ -34,33 +33,33 @@ Here's a tutorial to set up BotsApp on your own account in *less than 3 minutes.
 
 ## Deployment
 
-<b>Only local deployment is working for now!</b>
+<b>¡Solo la implementación local está funcionando por ahora!</b>
 
-### Easiest Way
+### La manera más fácil
 
-You can deploy BotsApp in minimal time without any prior knowledge using this method.
+Puede implementar BotsApp en un tiempo mínimo sin ningún conocimiento previo utilizando este método.
 
-1. Head over to BotsApp's [Official website](https://mybotsapp.com/) and create an account on heroku using your email ID.
-2. Once logged in, click on the "Deploy BotsApp" button in the sidebar.
-3. Scan the QR code shown using your WhatsApp account (3 dots on top right corner -> Linked devices -> LINK A DEVICE). Click on the 'Continue'      button once done.
-4. Once the bot is linked to your account, you will come across a form which can be used to manage settings/permissions of BotsApp. If required,    change the form fields. Then, click on the submit button.
-5. Wait for 1-3 minutes for the bot to start. This is a one time process. Try using the '.alive' command in any of your chats to verify whether    your bot has been deployed succesfully.
+1. Dirígete al [sitio web oficial] de BotsApp (https://mybotsapp.com/) y crea una cuenta en Heroku usando tu ID de correo electrónico.
+2. Una vez que se registre, haga clic en el botón "Implementar BotsApp" en la barra lateral.
+3. Escanee el código QR que se muestra usando su cuenta de WhatsApp (3 puntos en la esquina superior derecha -> dispositivos vinculados -> enlace un dispositivo). Haga clic en el botón 'Continuar' una vez hecho.
+4. Una vez que el bot esté vinculado a su cuenta, se encontrará con un formulario que se puede utilizar para administrar la configuración/permisos de BotsApp. Si es necesario, cambie los campos de formulario. Luego, haga clic en el botón Enviar.
+5. Espere 1-3 minutos para que comience el bot. Este es un proceso único. Intente usar el comando '.alive' en cualquiera de sus chats para verificar si su bot se ha implementado con éxito.
 
-Voila! You have deployed your bot in 5 easy steps. Once the bot has started successfully, you'll see a integration message on your whatsapp account.
+¡Voila! Ha implementado su bot en 5 sencillos pasos. Una vez que el BOT haya comenzado con éxito, verá un mensaje de integración en su cuenta de WhatsApp.
 
-### Manually on Heroku
+### manualmente en Heroku (Pueden suspender tu cuenta)
 
-<b>Deployment to heroku using the button is not working for now!</b>
+<b>¡El despliegue en Heroku usando el botón no funciona por ahora!</b>
 
-You can deploy the bot the heroku yourself using the button below!
+¡Puede implementar el bot el heroku usted mismo usando el botón a continuación!
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FBotsAppOfficial%2FBotsApp%2Ftree%2Fmain&template=https%3A%2F%2Fgithub.com%2FBotsAppOfficial%2FBotsApp%2Ftree%2Fmainhttps://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FBotsAppOfficial%2FBotsApp%2Ftree%2Fmain&template=https%3A%2F%2Fgithub.com%2FBotsAppOfficial%2FBotsApp%2Ftree%2Fmain)
+[![Desplegar en Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FBotsAppOfficial%2FBotsApp%2Ftree%2Fmain&template=https%3A%2F%2Fgithub.com%2FBotsAppOfficial%2FBotsApp%2Ftree%2Fmainhttps://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FBotsAppOfficial%2FBotsApp%2Ftree%2Fmain&template=https%3A%2F%2Fgithub.com%2FBotsAppOfficial%2FBotsApp%2Ftree%2Fmain)
 
-### Using Docker locally
+### usando Docker localmente 
 
-To follow this method, you will need to have docker installed on your machine and have some experience using docker.
+ Para seguir este método, deberá tener Docker instalado en su máquina y tener algo de experiencia usando Docker. 
 
-To host the bot on your own device using docker, follow the following steps on your terminal / command prompt -
+ Para alojar el bot en su propio dispositivo usando Docker, siga los siguientes pasos en su símbolo de terminal / sistema -
 
 ```bash
 wget -O BotsApp.tar.gz https://github.com/BotsAppOfficial/BotsApp/archive/refs/tags/v2.0.0-beta.tar.gz
@@ -70,13 +69,13 @@ docker build -t botsapp .
 docker run --rm --name botsapp botsapp
 ```
 
-This will create a container running BotsApp. You'll have to scan the QR at least once.
+Esto creará un contenedor que ejecuta BotsApp. Tendrá que escanear el QR al menos una vez. 
 
-### The GNU/Linux Legacy Way
+ ### The Gnu/Linux Legacy Way 
 
-To use this method, you will need ffmpeg, nodejs, npm installed on your device.
+ Para usar este método, necesitará FFMPEG, NodeJS, NPM instalado en su dispositivo. 
 
-To run the bot on your device manually, you can use the following commands -
+ Para ejecutar el bot en su dispositivo manualmente, puede usar los siguientes comandos -
 
 ```bash
 git clone https://github.com/BotsAppOfficial/BotsApp.git
@@ -85,22 +84,22 @@ yarn
 npm start
 ```
 
-## Scan QR Code again
-If you're having issues when running locally it is recommended to scan the code again. To get the QR code again, follow these commands -
+## Escane el código QR nuevamente 
+ Si tiene problemas cuando se ejecuta localmente, se recomienda escanear el código nuevamente. Para volver a obtener el código QR, siga estos comandos -
 ```
 rm -rf BotsApp.db session.data.json
 npm start
 ```
 
-## Support and Discussion groups
+## Grupos de apoyo y discusión 
 
-Feel free to post your queries or concerns on any of the discussion forums mentioned below:
+ Siéntase libre de publicar sus consultas o inquietudes en cualquiera de los foros de discusión mencionados a continuación:
 
-[![Join WhatsApp Group](https://img.shields.io/badge/Join-WhatsApp%20Group-bl.svg?logo=WhatsApp)](https://chat.whatsapp.com/GPEHkFlspzOKpSBTsYx7Wt)
+[![Únete al grupo WhatsApp (Comunidad en inglés)](https://img.shields.io/badge/Join-WhatsApp%20Group-bl.svg?logo=WhatsApp)](https://chat.whatsapp.com/GPEHkFlspzOKpSBTsYx7Wt)
 
-[![Join Telegram Group](https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=Telegram)](https://t.me/BotsAppChat)
+[![Únete al grupo Telegram (Comunidad en inglés)](https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=Telegram)](https://t.me/BotsAppChat)
 
-[![Join Telegram Channel](https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram)](https://t.me/BotsAppOfficial)
+[![Unirse al canal Telegram (Comunidad en inglés)](https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram)](https://t.me/BotsAppOfficial)
 
 
 

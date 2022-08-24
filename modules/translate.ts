@@ -58,7 +58,7 @@ module.exports = {
                             BotsApp.body[0] + BotsApp.commandName + " ",
                             ""
                         );
-                        language = "English";
+                        language = "Spanish";
                     }
                 }
             } else if (BotsApp.replyMessage) {

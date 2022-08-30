@@ -1,23 +1,23 @@
 const data = {
     general: {
         NUMBER_SYNTAX_ERROR:
-            "```Enter a valid contact number as per the syntax below:\n    1. XXXXXXXXXX\n    2. Tag the person\n    3. YYXXXXXXXXXX (YY- Country Code, without zeros)```",
-        MESSAGE_NOT_TAGGED: "```Tag a message or enter a number.```",
-        NOT_A_GROUP: "```Command only applicable in a group chat.```",
+            "```Ingrese un número de contacto válido según la siguiente sintaxis:\n    1. XXXXXXXXXX\n    2. Etiqueta a la persona\n    3. YYXXXXXXXXXX (YY- Código de país, sin ceros)```",
+        MESSAGE_NOT_TAGGED: "```Etiqueta un mensaje o ingresa un número.```",
+        NOT_A_GROUP: "```Comando solo aplicable en un chat grupal.```",
         BOT_NOT_ADMIN:
-            "```Sorry, don't have permission to do so since I am not an admin.```",
-        ADMIN_PERMISSION: "```You need to be an admin to execute this command.```",
+            "```Lo siento, no tengo permiso para hacerlo ya que no soy administrador.```",
+        ADMIN_PERMISSION: "```Debe ser administrador para ejecutar este comando.```",
         SUDO_PERMISSION:
-            "```Hey there, I am 💠BotsApp💠. I guess you were trying to use my commands in``` *{BotsApp.groupName}*```. However, the bot is currently in {worktype} mode. This enables only the owner and sudo users to use the command``` *{commandName}* ```.\n\nIf you are keen to use my features, you can deploy BotsApp on your own account without much effort, in less than 5 minutes! Check out the links given below.```\n\n🔗https://mybotsapp.com\n🔗https://github.com/BotsAppOfficial/BotsApp",
+            "```Hola, soy 💠BotsApp💠. Supongo que estabas tratando de usar mis comandos en``` *{BotsApp.groupName}*```. Sin embargo, el bot se encuentra actualmente en modo {worktype}. Esto permite que solo el propietario y los usuarios de sudo usen el comando``` *{commandName}* ```.\n\nSi desea utilizar mis funciones, puede implementar BotsApp en su propia cuenta sin mucho esfuerzo, ¡en menos de 5 minutos! Echa un vistazo a los enlaces que figuran a continuación.```\n\n🔗https://mybotsapp.com\n🔗https://github.com/BotsAppOfficial/BotsApp",
         ERROR_TEMPLATE:
-            "```Looks like something went wrong. Need not worry. Here are some logs since when the bot was not responding as expected.```\n```---------```\n```🧐 Command:``` *{commandName}*\n```😎 From Me?:``` *{fromMe}*\n```🗣️ Was a reply?:``` *{isReply}*\n```👥 In a group?``` *{isGroup}*\n```📥 In Inbox?``` *{isPm}*\n```📸 Command with image?``` *{isImage}*\n```🕺🏻 Is Bot group admin?``` *{isBotGroupAdmin}*\n```📈 Was Sender group admin?``` *{isSenderGroupAdmin}*\n```🫂 Was sender sudo?``` *{isSenderSudo}*\n```⚠️ Error:``` \n*{err}*\n```---------```\n_To figure out what exactly went wrong, please report/raise the issue on our support chat at_ https://chat.whatsapp.com/GRPWL8TBVq91lQig9JoqME",
+            "```Parece que algo salió mal. No necesitas preocuparte. Aquí hay algunos registros desde cuando el bot no respondía como se esperaba.```\n```---------```\n```🧐 Comando:``` *{commandName}*\n```😎 ¿De mi parte?:``` *{fromMe}*\n```🗣️ ¿Fue una respuesta?:``` *{isReply}*\n```👥 ¿En un grupo?``` *{isGroup}*\n```📥 En la bandeja de entrada?``` *{isPm}*\n```📸 Comando con imagen?``` *{isImage}*\n```🕺🏻 ¿Es el administrador del grupo Bot?``` *{isBotGroupAdmin}*\n```📈 ¿Era el administrador del grupo Sender?``` *{isSenderGroupAdmin}*\n```🫂 ¿El remitente fue sudo?``` *{isSenderSudo}*\n```⚠️ Error:``` \n*{err}*\n```---------```\n_Para averiguar qué salió mal exactamente, informe/plantee el problema en nuestro chat de soporte en_ https://chat.whatsapp.com/GRPWL8TBVq91lQig9JoqME",
         SUCCESSFUL_CONNECTION:
-            "*BotsApp successfuly integrated.*\n```Bot is currently working in``` *{worktype}* ```mode.```\n```For more information regarding Bot working and permissions check out:``` \n🔗https://github.com/BotsAppOfficial/BotsApp.\n\n⚠️ The bot will not work in this chat.",
+            "*BotsApp integrado con éxito.*\n```Bot está trabajando actualmente en modo ``` *{worktype}* ```.```\n```Para obtener más información sobre el funcionamiento y los permisos de Bot, consulte:``` \n🔗https://github.com/BotsAppOfficial/BotsApp.\n\n⚠️ El bot no funcionará en este chat.",
     },
     abl: {
-        DESCRIPTION: "Module to blacklist a person or a chat from using the bot.",
+        DESCRIPTION: "Módulo para poner en lista negra a una persona o un chat por usar el bot.",
         EXTENDED_DESCRIPTION:
-            "```Add people to blacklist and``` *restrict them* ```from using the bot. You can blacklist specific``` *groups* or *people in groups* or *people altogether* ```from using the bot. These are the configurations -\n\n1. If you send the command in a group``` *without replying* ```to anyone, the bot will be``` *disabled for that group.*\n```2. If you send the command in a group and``` *reply to someone*, ```they will not be able to use the bot in that``` *specific group.*\n```3. If you tag someone in a group like``` *.abl @<person>*, ```they will not be able to use the bot in that specific group.\n4. If you send the command in``` *personal chat* ```of a person, they will be blacklisted from using the bot in``` *any group.*",
+            "```Agregar personas a la lista negra y``` * Restringirlas * ```de usar el bot. Puede incluir en la lista negra``` *grupos* o *personas en grupos* o *personas en conjunto* ```de usar el bot. Estas son las configuraciones -\n\n1. Si envía el comando en un grupo``` *sin responder* ```a cualquiera, el bot será``` *deshabilitado para ese grupo.*\n```2. Si envía el comando en un grupo y``` *responder a alguien*, ```Ellos no podrán usar el bot en ese``` *grupo especifico.*\n```3. Si etiquetas a alguien en un grupo como``` *.abl @<persona>*, ```no podrán usar el bot en ese grupo específico.\n4. If you send the command in``` *personal chat* ```of a person, they will be blacklisted from using the bot in``` *any group.*",
         PM_ACKNOWLEDGEMENT: "```{} banned from using the bot in all chats.```",
         CAN_NOT_BLACKLIST_BOT:
             "```Bot cannot blacklist itself. Tag or reply to a different user.```",
@@ -286,8 +286,8 @@ const data = {
         ENTER_SONG: "```Enter song with the command```",
         SONG_NOT_FOUND:
             "```Could not find the song you entered. Check whether the link or keyword entered is correct.```",
-        DOWNLOADING: "```Downloading your song...```",
-        UPLOADING: "```Uploading song...```",
+        DOWNLOADING: "```Descargando música...```",
+        UPLOADING: "```Estoy subiendo la música...```",
         INTRO: "",
     },
     sticker: {

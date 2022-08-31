@@ -47,6 +47,9 @@ docker run -it -d --restart always --name botsapp  botsapp
 ```
 
 Esto creará un contenedor que ejecuta BotsApp. Tendrá que escanear el QR al menos una vez.
+```bash
+docker logs botsapp
+```
 
 En caso que desee borrar la sesión manualmente, dentro del contenedor solo borre el archivo BotsApp.db y session.data.json
 ```

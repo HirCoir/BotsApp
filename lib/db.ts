@@ -326,12 +326,12 @@ const data = {
         DESCRIPTION: "Traductor de idiomas",
         EXTENDED_DESCRIPTION:
             "```Use```  *.tr <texto> | <lenguaje>*  ```para traducir texto al idioma especificado. También puede responder a un mensaje de texto con la sintaxis ``` *.tr <idioma>* ```para traducir el texto.\nSi no especifica un idioma, el valor predeterminado es <English class=''></Spanish>```",
-        PROCESSING: "```Traductorio. Espere por favor 🥲...```",
+        PROCESSING: "```Traduciendo. Espere por favor 😌...```",
         TOO_LONG:
             "*El total de caracteres debe ser inferior a 4000.*\n```El total de caracteres para la entrada actual fue``` ```{}.```",
         LANGUAGE_NOT_SUPPORTED: "```El idioma no es válido.```",
         INVALID_REPLY: "```Por favor, responda a un mensaje de texto.```",
-        SUCCESS: "{}",
+        SUCCESS: "*TR:* Traducido [*{}* -> *{}*]\n\n{}",
         NO_INPUT:
             "```No se detectó ninguna entrada. Utilice ``` *.help tts* ```para obtener información sobre cómo usar este módulo.```",
     },

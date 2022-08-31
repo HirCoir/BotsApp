@@ -17,155 +17,155 @@ const data = {
     abl: {
         DESCRIPTION: "Módulo para poner en lista negra a una persona o un chat por usar el bot.",
         EXTENDED_DESCRIPTION:
-            "```Agregar personas a la lista negra y``` * Restringirlas * ```de usar el bot. Puede incluir en la lista negra``` *grupos* o *personas en grupos* o *personas en conjunto* ```de usar el bot. Estas son las configuraciones -\n\n1. Si envía el comando en un grupo``` *sin responder* ```a cualquiera, el bot será``` *deshabilitado para ese grupo.*\n```2. Si envía el comando en un grupo y``` *responder a alguien*, ```Ellos no podrán usar el bot en ese``` *grupo especifico.*\n```3. Si etiquetas a alguien en un grupo como``` *.abl @<persona>*, ```no podrán usar el bot en ese grupo específico.\n4. If you send the command in``` *personal chat* ```of a person, they will be blacklisted from using the bot in``` *any group.*",
-        PM_ACKNOWLEDGEMENT: "```{} banned from using the bot in all chats.```",
+            "```Agregar personas a la lista negra y``` * Restringirlas * ```de usar el bot. Puede incluir en la lista negra``` *grupos* o *personas en grupos* o *personas en conjunto* ```de usar el bot. Estas son las configuraciones -\n\n1. Si envía el comando en un grupo``` *sin responder* ```a cualquiera, el bot será``` *deshabilitado para ese grupo.*\n```2. Si envía el comando en un grupo y``` *responder a alguien*, ```Ellos no podrán usar el bot en ese``` *grupo especifico.*\n```3. Si etiquetas a alguien en un grupo como``` *.abl @<persona>*, ```no podrán usar el bot en ese grupo específico.\n4. Si envía el comando en``` *una chat* ```de una persona, serán incluidos en la lista negra para no usar el bot en``` *cualquier grupo*",
+        PM_ACKNOWLEDGEMENT: "```{} prohibido usar el bot en todos los chats.```",
         CAN_NOT_BLACKLIST_BOT:
-            "```Bot cannot blacklist itself. Tag or reply to a different user.```",
+            "```El bot no puede incluirse en la lista negra. Etiquetar o responder a un usuario diferente.```",
         GRP_ACKNOWLEDGEMENT:
-            "```{} has been blacklisted from using the bot in this group.```",
+            "```{} ha sido incluido en la lista negra por usar el bot en este grupo.```",
         GRP_BAN:
-            "```Bot has been disabled for the group``` *{}*. ```For more configurations use the``` *.help abl* ```command.```",
+            "```El bot ha sido deshabilitado para el grupo.``` *{}*. ```Para más configuraciones utilice el comando: ``` *.help abl* ```.```",
     },
     add: {
-        DESCRIPTION: "Module to add a person to a group.",
+        DESCRIPTION: "Módulo para agregar una persona a un grupo.",
         EXTENDED_DESCRIPTION:
-            "```Add new people to a group by entering their mobile number as per the format mentioned below.\n    1. XXXXXXXXXX\n    2. YYXXXXXXXXXX ()\n\nFor example -\n``` *.add 9861212121*",
+            "```Agregue nuevas personas a un grupo ingresando su número de teléfono móvil según el formato mencionado a continuación.\n    1. XXXXXXXXXX\n    2. YYXXXXXXXXXX ()\n\nPor ejemplo -\n``` *.add 9861212121*",
         NUMBER_SYNTAX_ERROR:
-            "```Valid formats -\n    1. XXXXXXXXXX\n    2. YYXXXXXXXXXX\n\nFor example-```\n*.add 9861212121*\n*.add 919861212121*",
+            "```Formatos válidos -\n    1. XXXXXXXXXX\n    2. YYXXXXXXXXXX\n\nFor example-```\n*.add 9861212121*\n*.add 919861212121*",
         NO_ARG_ERROR:
-            "```Enter the number you want to add.\n\nFor instance,```  *.add <NUMBER>* .",
+            "```Ingrese el número que desea agregar.\n\nPor ejemplo,```  *.add <NUMBER>* .",
         NO_24HR_BAN:
-            "```The number entered cannot be added back before 24 hours.```",
+            "```El número ingresado no se puede volver a agregar antes de 24 horas.```",
         ALREADY_MEMBER:
-            "```The number entered is already a member of this group.```",
+            "```El número ingresado no se puede volver a agregar antes de 24 horas```",
         NOT_ON_WHATSAPP:
-            "```The number you're trying to add, {}, isn't available on WhatsApp.\nPlease verify the number again.```",
+            "```El número que estás intentando sumar, {}, no está disponible en WhatsApp.\nVerifique el número nuevamente.```",
         SUCCESS: " added successfully!",
         PRIVACY:
-            "```The number you're trying to add cannot be added to the group directly. An invite link has been sent to them.```",
+            "```El número que intenta agregar no se puede agregar directamente al grupo. Se les ha enviado un enlace de invitación.```",
     },
     admins: {
-        DESCRIPTION: "Tag admins",
+        DESCRIPTION: "Administradores de etiquetas",
         EXTENDED_DESCRIPTION:
-            "```Tag admins of a group (either as a reply to another message or a direct tag).```",
+            "```Etiquetar a los administradores de un grupo (ya sea como respuesta a otro mensaje o como etiqueta directa).```",
         NOT_GROUP_CHAT:
-            "*.admins*  ```command is only applicable for group chats.```",
+            "*.admins*  ```El comando solo es aplicable para chats grupales.```",
     },
     alive: {
-        DESCRIPTION: "Check if bot is online.",
+        DESCRIPTION: "Comprobar si el bot está en línea.",
         EXTENDED_DESCRIPTION:
-            "```This module can be used to check if the bot is currently online or not.\n\nExample usage,```\n*.alive*",
+            "```Este módulo se puede usar para verificar si el bot está actualmente en línea o no.\n\nEjemplo de uso,```\n*.alive*",
         ALIVE_MSG:
-            "```💠 BotsApp has been integrated successfully. 💠\n\nUse the ```  *.help*  ``` command to get a list of plugins that will make your WhatsApp experience much easier.\n\nIf you are impressed with my service, consider supporting the Bot on GitHub-\n```https://github.com/BotsAppOfficial/BotsApp\n\n```Check out our official website for any new updates.```",
+            "```💠 BotsApp se ha integrado con éxito. 💠\n\nUse el comando ```  *.help*  ``` para obtener una lista de complementos que harán que su experiencia con WhatsApp sea mucho más fácil.\n\nSi está impresionado con mi servicio, considere apoyar el Bot en GitHub-\n```https://github.com/BotsAppOfficial/BotsApp\n\n```Consulte nuestro sitio web oficial para conocer las nuevas actualizaciones.```",
     },
     block: {
-        DESCRIPTION: "Block contact",
+        DESCRIPTION: "Bloquear contacto",
         EXTENDED_DESCRIPTION:
-            "```Add the number to blocklist. You can reply to the person in group / pm or use .block <number>.```",
+            "```Agregue el número a la lista de bloqueo. Puede responder a la persona en grupo / pm o usar .block <numero>.```",
         NUMBER_SYNTAX_ERROR:
-            "```Enter a valid contact number as per the syntax below:\n    1. XXXXXXXXXX\n    2. Tag the person\n    3. +YYXXXXXXXXXX (YY-Country Code, without zeros)```",
-        MESSAGE_NOT_TAGGED: "```Tag a message or enter a number to proceed.```",
-        NOT_BLOCK_BOT: "```Bot can not block itself```",
+            "```Ingrese un número de contacto válido según la siguiente sintaxis:\n    1. XXXXXXXXXX\n    2. Etiqueta a la persona\n    3. +YYXXXXXXXXXX (YY-Código de país, sin ceros)```",
+        MESSAGE_NOT_TAGGED: "```Etiqueta un mensaje o ingresa un número para continuar.```",
+        NOT_BLOCK_BOT: "```El bot no puede bloquearse a sí mismo```",
     },
     carbon: {
-        DESCRIPTION: "Convert text/code to a carbon image.",
+        DESCRIPTION: "Convierta texto/código en una imagen de carbono.",
         EXTENDED_DESCRIPTION:
-            "```This module can be used to convert text/code into carbon images.\n\nExample Usage,```\n    *.carbon <text>* \n    *.carbon*  ```and reply to a text message.\n\nUse the -t flag after```  *.carbon*  ```to get the list of themes availble.\nIn order to specify the theme, use```  *.carbon <text> -t <theme>* .",
+            "```Este módulo se puede utilizar para convertir texto/código en imágenes de carbono.\n\nEjemplo de uso,```\n    *.carbon <exto>* \n    *.carbon*  ```y responder a un mensaje de texto.\n\nUsa el indicador -t después```  *.carbon*  ```para obtener la lista de temas disponibles.\nPara especificar el tema, utilice```  *.carbon <text> -t <tema>* .",
         NO_INPUT:
-            "```No input provided.\nPlease use the command```  *.carbon <text>*  ```or reply to a text message with```  *.carbon*  ```to carbonize the text.```",
+            "```No se proporcionó ninguna entrada.\nUtilice el comando```  *.carbon <texto>*  ```o responder a un mensaje de texto con```  *.carbon*  ```carbonizar el texto.```",
         CARBONIZING:
-            "```Converting your text into a code snippet. Please wait...```",
+            "```Convertir su texto en un fragmento de código. Espere por favor...```",
         OUTPUT:
-            "*<< Here's your carbon image! >>*\n```Carbonized by BotsApp\nColour Scheme: {}```",
+            "*<< ¡Aquí está su imagen de carbon! >>*\n```Carbonizado por BotsApp\nEsquema de color: {}```",
         INVALID_REPLY: "```The replied message should be text.```",
         INVALID_THEME:
-            "```Please enter a valid theme.\nDo note that theme names are```  *case sensitive*.",
+            "```Ingrese un tema válido.\nTenga en cuenta que los nombres de los temas son```  *distingue mayúsculas y minúsculas*.",
     },
     create: {
-        DESCRIPTION: "Create a new group with the person replied to",
+        DESCRIPTION: "Crear un nuevo grupo con la persona a la que se respondió",
         EXTENDED_DESCRIPTION:
-            "```This module will create a new WhatsApp group and it will add the replied person in the group.",
-        NO_TEXT: "```Enter the name of the group```",
-        TAG_PERSON: "```Reply to the person that should be included in group```",
-        GROUP_CREATED: "```Group has been created successfully.```",
+            "```Este módulo creará un nuevo grupo de WhatsApp y agregará a la persona respondida en el grupo".,
+        NO_TEXT: "```Introduce el nombre del grupo```",
+        TAG_PERSON: "```Responder a la persona que debe ser incluida en el grupo```",
+        GROUP_CREATED: "```El grupo ha sido creado con éxito.```",
     },
     cpp: {
-        DESCRIPTION: "Execute C++ code and directly get output to WhatsApp.",
+        DESCRIPTION: "Ejecute el código C++ y obtenga la salida directamente en WhatsApp.",
         EXTENDED_DESCRIPTION:
-            "```Use this module to execute C++ code and get the output directly on WhatsApp. To avoid errors, try to not use input.\nIn case you want to provide input, use the``` *-i flag* ```to provide input. Check out the example for an idea.```",
+            "```Utilice este módulo para ejecutar código C++ y obtener el resultado directamente en WhatsApp. Para evitar errores, trate de no usar la entrada.\nEn caso de que desee proporcionar información, utilice el``` *-i flag* ```para proporcionar entrada. Mira el ejemplo para una idea.```",
         NO_INPUT:
-            "```Give some C++ code to execute. Use the``` *.help cpp* ```command to get more info on this module.```",
+            "```Proporcione algo de código C++ para ejecutar. Utilizar el``` *.help cpp* ```comando para obtener más información sobre este módulo.```",
         BOILERPLATE:
             "#include <bits/stdc++.h>\nusing namespace std;\n\nint main(){\n    {code}\n}",
         OUTPUT_TEMPLATE:
-            "⭐ *Output:*```\n{stdout}```\n\n⚠️ *Error:*```\n{stderr}```\n\n👨🏻‍💻 *Command:*```\n{code}```",
+            "⭐ *Producción:*```\n{stdout}```\n\n⚠️ *Error:*```\n{stderr}```\n\n👨🏻‍💻 *Commando:*```\n{code}```",
         PROCESSING: "```Executing, please wait...```",
     },
     decodeqr: {
-        DESCRIPTION: "Decode QR code",
+        DESCRIPTION: "Decodificar código QR",
         EXTENDED_DESCRIPTION:
-            "```Use this plugin to decode a QR code by simply replying to an existing QR image in the chat using```  *.decodeqr*  ```or uploading a QR image with caption as```  *.decodeqr*",
+            "```Use este complemento para decodificar un código QR simplemente respondiendo a una imagen QR existente en el chat usando```  *.decodeqr*  ```o cargando una imagen QR con título como```  *.decodeqr*",
         INVALID_REPLY:
-            "```Please ensure that you are replying to a QR image/sticker.```",
+            "```Asegúrate de responder a una imagen/pegatina QR.```",
         INVALID_INPUT:
-            "```Invalid input. Use``` *.help decodeqr*  ```for more info.```",
-        PROCESSING: "```Decoding. Please wait...```",
+            "```Entrada inválida. Usar``` *.help decodeqr*  ```para más información.```",
+        PROCESSING: "```Descodificación. Espere por favor...```",
     },
     demote: {
-        DESCRIPTION: "Demote a person from admin",
+        DESCRIPTION: "Degradar a una persona de administrador",
         EXTENDED_DESCRIPTION:
-            "```Use this module to demote a person from admin by entering the person's mobile number. Valid Syntaxes -\n    1. XXXXXXXXXX\n    2. YYXXXXXXXXXX ()\n\nFor example``` -\n*.demote 9861212121*",
-        NOT_A_GROUP: "```This command is only applicable for group chats.```",
+            "```Use este módulo para degradar a una persona de administrador ingresando el número de teléfono móvil de la persona. Sintaxis válidas -\n 1. XXXXXXXXXX\n 2. YYXXXXXXXXXX ()\n\nPor ejemplo``` -\n*.demote 9861212121*",
+        NOT_A_GROUP: "```Este comando solo es aplicable para chats grupales.```",
         BOT_NOT_ADMIN:
-            "```Sorry, dont have the permission to do so since I am not an admin.```",
-        PERSON_NOT_IN_GROUP: "```Person not found.```",
+            "```Lo siento, no tengo permiso para hacerlo ya que no soy administrador..```",
+        PERSON_NOT_IN_GROUP: "```Persona no encontrada.```",
         MESSAGE_NOT_TAGGED:
-            "```Reply/tag/enter contact number of the person to be demoted.```",
+            "```Responder/etiquetar/ingresar el número de contacto de la persona a ser degradada.```",
     },
     disappear: {
-        DESCRIPTION: "Toggle disappearing messages",
+        DESCRIPTION: "Alternar mensajes que desaparecen",
         EXTENDED_DESCRIPTION:
-            "```Toggle disappearing messages by using command``` *.dissapear* .",
+            "```Alternar mensajes que desaparecen usando el comando``` *.dissapear* .",
     },
     getdp: {
-        DESCRIPTION: "Get display picture",
+        DESCRIPTION: "Obtener imagen de visualización",
         EXTENDED_DESCRIPTION:
-            "```Get the profile picture of the group in a group conversation or the profile picture of BotsApp itself in personal chat. Tag a person in a group to get their profile picture.```",
-        IMAGE_CAPTION: "```Here is the display image. Procured by BotsApp.```",
-        PROCESSING: "```Getting display picture...```",
+            "```Obtenga la imagen de perfil del grupo en una conversación grupal o la imagen de perfil de BotsApp en el chat personal. Etiqueta a una persona en un grupo para obtener su foto de perfil.```",
+        IMAGE_CAPTION: "```Aquí está la imagen de la pantalla. Adquirido por BotsApp.```",
+        PROCESSING: "```Obteniendo imagen de visualización...```",
         TRY_AGAIN:
-            "```Display picture not found. Upload an image and try again.```",
+            "```Mostrar imagen no encontrada. Sube una imagen e inténtalo de nuevo.```",
     },
     github: {
-        DESCRIPTION: "Github Profile",
+        DESCRIPTION: "Perfil de Github",
         EXTENDED_DESCRIPTION:
-            "```Get the github profile by command```  *.github <user>*  ```or replying```  *.github* .",
+            "```Obtenga el perfil de github por comando```  *.github <user>*  ```o respondiendo```  *.github* .",
         NO_ARG_ERROR:
-            "```Please enter the username. Use the``` *.help github* ```command for more info.```",
-        ERROR_MSG: "```Enter a valid username.```",
-        FETCHING: "```Fetching user details from GitHub. Please wait...```",
+            "```Por favor ingrese el nombre de usuario. Utilizar el``` *.help github* ```Comando para más información.```",
+        ERROR_MSG: "```Introduzca un nombre de usuario válido.```",
+        FETCHING: "```Obtención de detalles de usuario de GitHub. Espere por favor...```",
     },
     help: {
-        DESCRIPTION: "Get the command list and info on modules",
+        DESCRIPTION: "Obtenga la lista de comandos e información sobre los módulos",
         EXTENDED_DESCRIPTION:
-            "This module is used to get info on other modules and their triggers.",
-        HEAD: "🌀 *BotsApp Menu* 🌀\n```Use .help command for detailed info on a module.```",
-        TEMPLATE: "\n\n🤖 *Command* - ```{}```\n💡 *Info* - ```{}```",
+            "Este módulo se utiliza para obtener información sobre otros módulos y sus disparadores.",
+        HEAD: "🌀 *Menú de BotsApp* 🌀\n```Use el comando .help para obtener información detallada sobre un módulo.```",
+        TEMPLATE: "\n\n🤖 *Comando* - ```{}```\n💡 *Información*- ```{}```",
         COMMAND_INTERFACE: "🌀 *BotsApp Command Interface* 🌀\n\n",
-        COMMAND_INTERFACE_TEMPLATE: "💠 *Triggers -* ```{}```\n📚 *Info -* {}",
+        COMMAND_INTERFACE_TEMPLATE: "💠 *Disparadores -* ```{}```\n📚 *Información -* {}",
         FOOTER:
-            "```\n\nClick on the button below to get a preview of the plugin.```",
+            "```\n\nHaga clic en el botón de abajo para obtener una vista previa del complemento.```",
     },
     invite: {
-        DESCRIPTION: "Module to create group invite link",
+        DESCRIPTION: "Módulo para crear enlace de invitación de grupo",
         EXTENDED_DESCRIPTION:
-            "```Use this module to send a group invite link in the group or personally to someone.```",
-        LINK_SENT: "```Invite link sent in DM, please check.```",
+            "```Use este módulo para enviar un enlace de invitación grupal en el grupo o personalmente a alguien.```",
+        LINK_SENT: "```Enlace de invitación enviado por DM, verifique.```",
     },
     lyrics: {
-        DESCRIPTION: "Module to find lyrics of song",
+        DESCRIPTION: "Módulo para encontrar letras de canciones.",
         EXTENDED_DESCRIPTION:
-            "```Use this module to find the lyrics of a song by using```  *.lyrics*  ```command.```",
+            "```Use este módulo para encontrar la letra de una canción usando el comando ``` *.lyrics* ```",
         NO_ARG: "```Please enter the song name.```",
         NOT_FOUND: "```Song not found !```",
         PROCESSING: "```Searching. Please wait....```",

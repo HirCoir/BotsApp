@@ -15,7 +15,7 @@ const data = {
             "*BotsApp integrado con éxito.*\n```Bot está trabajando actualmente en modo ``` *{worktype}* ```.```\n```Para obtener más información sobre el funcionamiento y los permisos de Bot, consulte:``` \n🔗https://github.com/BotsAppOfficial/BotsApp.\n\n⚠️ El bot no funcionará en este chat.",
     },
     abl: {
-        DESCRIPTION: "Módulo para poner en lista negra a una persona o un chat por usar el bot.",
+        DESCRIPTION: " Módulo para poner en lista negra a una persona o un chat por usar el bot.",
         EXTENDED_DESCRIPTION:
             "```Agregar personas a la lista negra y``` * Restringirlas * ```de usar el bot. Puede incluir en la lista negra``` *grupos* o *personas en grupos* o *personas en conjunto* ```de usar el bot. Estas son las configuraciones -\n\n1. Si envía el comando en un grupo``` *sin responder* ```a cualquiera, el bot será``` *deshabilitado para ese grupo.*\n```2. Si envía el comando en un grupo y``` *responder a alguien*, ```Ellos no podrán usar el bot en ese``` *grupo especifico.*\n```3. Si etiquetas a alguien en un grupo como``` *.abl @<persona>*, ```no podrán usar el bot en ese grupo específico.\n4. Si envía el comando en``` *una chat* ```de una persona, serán incluidos en la lista negra para no usar el bot en``` *cualquier grupo*",
         PM_ACKNOWLEDGEMENT: "```{} prohibido usar el bot en todos los chats.```",
@@ -150,9 +150,9 @@ const data = {
         EXTENDED_DESCRIPTION:
             "Este módulo se utiliza para obtener información sobre otros módulos y sus disparadores.",
         HEAD: "🌀 *Menú de BotsApp* 🌀\n```Use el comando .help para obtener información detallada sobre un módulo.```",
-        TEMPLATE: "\n\n🤖 *Comando* - ```{}```\n💡 *Información*- ```{}```",
+        TEMPLATE: "\n\n🤖 *Comando* - ```{}```\n💡 *Información* - ```{}```",
         COMMAND_INTERFACE: "🌀 *BotsApp Command Interface* 🌀\n\n",
-        COMMAND_INTERFACE_TEMPLATE: "💠 *Disparadores -* ```{}```\n📚 *Información -* {}",
+        COMMAND_INTERFACE_TEMPLATE: "💠 *Disparadores - * ```{}```\n📚 *Información - * {}",
         FOOTER:
             "```\n\nHaga clic en el botón de abajo para obtener una vista previa del complemento.```",
     },
@@ -166,79 +166,79 @@ const data = {
         DESCRIPTION: "Módulo para encontrar letras de canciones.",
         EXTENDED_DESCRIPTION:
             "```Use este módulo para encontrar la letra de una canción usando el comando ``` *.lyrics* ```",
-        NO_ARG: "```Please enter the song name.```",
-        NOT_FOUND: "```Song not found !```",
-        PROCESSING: "```Searching. Please wait....```",
+        NO_ARG: "```Por favor, introduzca el nombre de la canción.```",
+        NOT_FOUND: "```Canción no encontrada 🙁!```",
+        PROCESSING: "```Buscando. Espere por favor....```",
     },
     meaning: {
-        DESCRIPTION: "Find meaning of a word in dictionary.",
+        DESCRIPTION: "Encuentra el significado de una palabra en el diccionario.",
         EXTENDED_DESCRIPTION:
-            "Find meaning of a word in dictionary by using .meaning <word>.",
-        NO_ARG: "```Please enter a word.```",
-        NOT_FOUND: "```Word not found in dictionary!```",
+            "Encuentre el significado de una palabra en el diccionario usando .meaning <palabra>.",
+        NO_ARG: "```Introduzca una palabra.```",
+        NOT_FOUND: "```¡Palabra no encontrada en el diccionario!```",
     },
     mute: {
-        DESCRIPTION: "Mute group chat for a specified time.",
+        DESCRIPTION: "Silenciar el chat grupal durante un tiempo específico.",
         EXTENDED_DESCRIPTION:
-            "Mute non-admin members of a group. You can even specify the duration using s, m or h.\n\nFor example:\n .mute 15 m   will change chat permissions to admin-only for 15 minutes.",
+            "Silenciar a los miembros que no sean administradores de un grupo. Incluso puedes especificar la duración usando s, m o h.\n\nPor ejemplo:\n .mute 15 m cambiará los permisos de chat a solo administrador durante 15 minutos.",
         NOT_GROUP_CHAT:
-            "*.mute*  ```command is only applicable in a group chat.```",
+            "*.mute*  ```el comando solo es aplicable en un chat grupal.```",
         NOT_ADMIN:
-            "```Sorry, dont have the permission to do so since I am not an admin.```",
-        CHAT_ADMIN_ONLY: "```Chat permissions changed to```  *admin only*.",
+            "```Lo siento, no tengo permiso para hacerlo ya que no soy administrador.```",
+        CHAT_ADMIN_ONLY: "```Los permisos de chat cambiaron a``` *solo administrador*.",
         MENTION_DURATION:
-            "```Please mention how long you want to mute the chat. For example,```\n*.mute 10 s*  ```to mute for 10 seconds.```",
-        CHAT_ALL_MEMBERS: "```Chat permissions changed to```  *all group members*.",
+            "```Mencione cuánto tiempo desea silenciar el chat. Por ejemplo, ```\n*.mute 10 s* ```para silenciar durante 10 segundos.```",
+        CHAT_ALL_MEMBERS: "```Los permisos de chat cambiaron a ``` *todos los miembros del grupo*.",
     },
     neko: {
-        DESCRIPTION: "Copy your text to nekobin",
+        DESCRIPTION: "Copia tu texto a nekobin",
         EXTENDED_DESCRIPTION:
-            "```Use this module to paste your text to a pastebin (NEKOBIN). Enter text with the command```  *.neko* .",
-        ENTER_TEXT: "```Please enter a text message along with the command.```",
-        TRY_LATER: "```Too many tries. Please try again later.```",
-        PROCESSING: "```Pasting text to nekobin. Please wait...```",
+            "```Utilice este módulo para pegar su texto en un pastebin (NEKOBIN). Ingrese texto con el comando```  *.neko* .",
+        ENTER_TEXT: "```Ingrese un mensaje de texto junto con el comando.```",
+        TRY_LATER: "```Demasiados intentos. Por favor, inténtelo de nuevo más tarde.```",
+        PROCESSING: "```Pegando el texto en nekobin. Espere por favor...```",
     },
     news: {
-        DESCRIPTION: "Fetch news in a mobile readable format",
+        DESCRIPTION: "Obtenga noticias en un formato legible para dispositivos móviles",
         EXTENDED_DESCRIPTION:
-        "```Use this module to fetch news from a publication in mobile readable format from around 1500 publications. Enter text with the command```  *.news* .\n\nTo search for publications, use:-\n```.news search ``` _publication name_\n\nTo fetch news, use:-\n```.news fetch ``` _publication name_\n\nNews is fetched in epub format as it is more comfortable for reading in mobile devices. To read them in Android devices, you can use this application: https://play.google.com/store/apps/details?id=org.readera",
-        NO_COMMMAND: "```No arguments supplied. Use``` *.help news* ```for info on how to use the command.```",
-        NO_PUB_NAME: "```No publication name supplied. Use``` *.help news* ```for info on how to use the command.```"
+        "```Utilice este módulo para obtener noticias de una publicación en formato legible para dispositivos móviles de alrededor de 1500 publicaciones. Ingrese texto con el comando```  *.news* .\n\nPara buscar publicaciones, utilice: -\n```.news search ``` _publication name_\n\nPara obtener noticias, utilice:-\n```.news fetch ``` _publication name_\n\nLas noticias se obtienen en formato epub, ya que es más cómodo para leer en dispositivos móviles. Para leerlos en dispositivos Android, puedes utilizar esta aplicación: https://play.google.com/store/apps/details?id=org.readera",
+        NO_COMMMAND: "```No se proporcionan argumentos. Use ``` *.help news* ```para obtener información sobre cómo usar el comando.```",
+        NO_PUB_NAME: "```No se proporcionó el nombre de la publicación. Use ``` *.help news* ```para obtener información sobre cómo usar el comando.```"
     },
     ocr: {
-        DESCRIPTION: "Optical Character Recognition",
+        DESCRIPTION: "Reconocimiento óptico de caracteres",
         EXTENDED_DESCRIPTION:
-            "```Use this module to obtain text from an image by```  *.ocr*  ```command.```",
-        PROCESSING: "```Processing. Please wait...```",
+            "```Use este módulo para obtener texto de una imagen mediante el comando ``` *.ocr* ```.```",
+        PROCESSING: "```Procesando. Espere por favor...```",
         ERROR_MSG:
-            "```OCR stand for Optical Character Recognition. Reply to an image with text to get that text. Use the``` *.help ocr* ```command for more info.```",
-        NO_TEXT: "Couldn't find text in the image",
+            "```OCR significa reconocimiento óptico de caracteres. Responda a una imagen con texto para obtener ese texto. Utilice el comando ``` *.help ocr* ```para obtener más información.```",
+        NO_TEXT: "No se pudo encontrar texto en la imagen.",
     },
     promote: {
-        DESCRIPTION: "Promote a member to admin",
+        DESCRIPTION: "Promocionar a un miembro a administrador",
         EXTENDED_DESCRIPTION:
-            "```Use this module to promote a member to admin. You can enter the person's mobile number as per the format below. Valid Syntaxes -\n    1. XXXXXXXXXX\n    2. YYXXXXXXXXXX ()\n\nFor example-\n``` *.promote 9861212121*",
-        NOT_A_GROUP: "```This command is only applicable in a group chat.```",
+            "```Use este módulo para promover a un miembro a administrador. Puede ingresar el número de teléfono móvil de la persona según el formato a continuación. Sintaxis válidas -\n    1. XXXXXXXXXX\n    2. YYXXXXXXXXXX ()\n\nPor ejemplo -\n``` *.promote 9861212121*",
+        NOT_A_GROUP: "```Este comando solo es aplicable en un chat grupal.```",
         BOT_NOT_ADMIN:
-            "```Sorry, dont have the permission to do so since I am not an admin.```",
-        PERSON_NOT_IN_GROUP: "```Person is not in the group.```",
+            "```Lo siento, no tengo permiso para hacerlo ya que no soy administrador.```",
+        PERSON_NOT_IN_GROUP: "```La persona no está en el grupo..```",
         MESSAGE_NOT_TAGGED:
-            "```Reply/tag/enter contact number of the person to be promoted.```",
+            "```Responder/etiquetar/ingresar el número de contacto de la persona a promocionar.```",
     },
     quote: {
-        DESCRIPTION: "Quote someone's text and convert it to sticker.",
-        EXTENDED_DESCRIPTION: "```Reply to any person's text to convert it to text.```",
-        NO_REPLY: "```Please reply to a text message.```",
-        PROCESSING: "```Quoting text, please wait!```"
+        DESCRIPTION: "Cita el texto de alguien y conviértelo en una pegatina.",
+        EXTENDED_DESCRIPTION: "```Responda al texto de cualquier persona para convertirlo en texto.```",
+        NO_REPLY: "```Por favor, responda a un mensaje de texto.```",
+        PROCESSING: "```Citando texto, por favor espere!```"
     },
     qr: {
-        DESCRIPTION: "Convert a text/image to a QR code",
+        DESCRIPTION: "Convierte un texto/imagen en un código QR",
         EXTENDED_DESCRIPTION:
-            "```Use this module to convert a text into a qr code. You can either specify the text after the .qr command or reply to a message using .qr.```",
+            "```Utilice este módulo para convertir un texto en un código qr. Puede especificar el texto después del comando .qr o responder a un mensaje usando .qr.```",
         INVALID_INPUT:
-            "```No input provided. Specify the text to be converted to QR code after the ```  *.qr*  ```command or reply to a text/image using the```  *.qr*  ```command.```",
-        PROCESSING: "```Generating QR code. Please wait...```",
-        IMAGE_CAPTION: "```Here's your QR image.```",
+            "```No se proporcionó ninguna entrada. Especifique el texto que se convertirá en código QR después del comando ``` *.qr* ``` o responda a un texto/imagen usando el comando ``` *.qr* ```.```",
+        PROCESSING: "```Generación de código QR. Espere por favor...```",
+        IMAGE_CAPTION: "```Aquí está su imagen QR.```",
     },
     rbl: {
         DESCRIPTION: "Module to enable a blacklist person or group to use the bot.",

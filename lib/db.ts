@@ -241,195 +241,195 @@ const data = {
         IMAGE_CAPTION: "```Aquí está su imagen QR.```",
     },
     rbl: {
-        DESCRIPTION: "Module to enable a blacklist person or group to use the bot.",
+        DESCRIPTION: "Módulo para permitir que una persona o grupo de la lista negra use el bot.",
         EXTENDED_DESCRIPTION:
-            "```Remove people or group from blacklist. Works in a similar manner to abl. Use``` *.help abl* ```for more info.```",
-        PM_ACKNOWLEDGEMENT: "```{} removed from Blacklist for all the chats.```",
+            "```Eliminar personas o grupos de la lista negra. Funciona de manera similar a abl. Utilice ``` *.help abl* ```para obtener más información.```",
+        PM_ACKNOWLEDGEMENT: "```{} eliminado de la lista negra para todos los chats.```",
         GRP_ACKNOWLEDGEMENT:
-            "```{} has been removed from the Blacklist for this group.```",
-        GRP_BAN: "```Bot has been enabled for the group``` *{}*",
-        NOT_IN_BLACKLIST: "```Entry for {} not found in the Blacklist.```",
+            "```{} ha sido eliminado de la lista negra de este grupo.```",
+        GRP_BAN: "```El bot ha sido habilitado para el grupo.``` *{}*",
+        NOT_IN_BLACKLIST: "```Entrada para {} no encontrada en la lista negra.```",
     },
     remove: {
-        DESCRIPTION: "Module to remove a person from a group.",
+        DESCRIPTION: "Módulo para eliminar a una persona de un grupo.",
         EXTENDED_DESCRIPTION:
-            "```Use this module to remove people from a group by tagging them```  *.remove @<person-to-remove>*  ```or replying to them```  *.remove*.",
+            "```Utilice este módulo para eliminar personas de un grupo etiquetándolas ``` *.remove @<persona-para-eliminar>* ```o respondiéndoles``` *.remove*.",
         INPUT_ERROR:
-            "```Reply to the person you want to remove or tag them.\n\nFor instance,```  *.remove @<person-to-remove>*  ```or reply using```  *.remove*.",
+            "```Responda a la persona que desea eliminar o etiquétela.\n\nPor ejemplo, ``` *.remove @<persona-a-remover>* ```o responda usando ``` *.remove*.",
     },
     rename: {
-        DESCRIPTION: "Module to rename a pdf or text document.",
+        DESCRIPTION: "Módulo para renombrar un documento pdf o de texto.",
         EXTENDED_DESCRIPTION:
-            "```Use this module to rename documents by ```replying to them```  *.rename <new-name>*.",
-        DOWNLOADING: "```Your document is being processed...```",
+            "```Use este módulo para cambiar el nombre de los documentos ```respondiéndoles``` *.rename <nuevo-nombre>*.",
+        DOWNLOADING: "```Su documento está siendo procesado...```",
         PROVIDE_NEW_NAME: "```Provide a new name for your document.```",
         REPLY_TO_DOCUMENT:
-            "```Reply to a valid document message to change it's file name.```",
+            "```Responda a un mensaje de documento válido para cambiar su nombre de archivo.```",
         ERROR:
-            "```Woops, something went wrong. Try again later, or proabaly not with this again...```",
+            "```Vaya, algo salió mal. Vuelve a intentarlo más tarde, o probablemente no vuelvas a intentarlo...```",
         VALID_REPLY:
-            "```Please tag a valid image / sticker / audio / document / pdf / GIF.```",
+            "```Etiquete una imagen/pegatina/audio/documento/pdf/GIF válidos.```",
     },
     setdp: {
-        DESCRIPTION: "Change the group icon",
+        DESCRIPTION: "Cambiar el icono del grupo",
         EXTENDED_DESCRIPTION:
-            "```Use this module to change the group's icon. Tag image with the command or send the desired image with caption as the command```",
+            "```Utilice este módulo para cambiar el icono del grupo. Etiquete la imagen con el comando o envíe la imagen deseada con el título como comando```",
         NOT_AN_IMAGE:
-            "```Please reply or caption the image you want to make the group icon.```",
-        NOT_A_GROUP: "```This command is only applicable in a group chat.```",
-        ICON_CHANGED: "```Changing icon/group image...```",
+            "```Responda o titule la imagen que desea convertir en el ícono del grupo.```",
+        NOT_A_GROUP: "```Este comando solo es aplicable en un chat grupal.```",
+        ICON_CHANGED: "```Cambiando icono/imagen de grupo...```",
     },
     song: {
-        DESCRIPTION: "Download songs",
+        DESCRIPTION: "Descargar canciones",
         EXTENDED_DESCRIPTION:
-            "Use this module to download audio of your choice either by specifying a YouTube link or the name of the song.",
-        ENTER_SONG: "```Enter song with the command```",
+            "Use este módulo para descargar audio de su elección especificando un enlace de YouTube o el nombre de la canción.",
+        ENTER_SONG: "```Introduce la canción con el comando```",
         SONG_NOT_FOUND:
-            "```Could not find the song you entered. Check whether the link or keyword entered is correct.```",
-        DOWNLOADING: "```Descargando música...```",
-        UPLOADING: "```Estoy subiendo la música...```",
+            "```No se pudo encontrar la canción que ingresó. Compruebe si el enlace o la palabra clave ingresada es correcta.```",
+        DOWNLOADING: "```Descargando canción 🙌😊...```",
+        UPLOADING: "```Estoy subiendo la canción 😁...```",
         INTRO: "",
     },
     sticker: {
-        DESCRIPTION: "Module to convert image to sticker",
+        DESCRIPTION: "Módulo para convertir imagen en sticker",
         EXTENDED_DESCRIPTION:
-            "```Use this module to convert any image from your chat to a sticker. Reply to an image message with the command```  *.sticker*  ```to convert and send that image as a sticker.```",
+            "```Use este módulo para convertir cualquier imagen de su chat en una etiqueta. Responda a un mensaje de imagen con el comando``` *.sticker* ```para convertir y enviar esa imagen como una etiqueta.```",
         TAG_A_VALID_MEDIA_MESSAGE:
-            "```Please tag a valid image/video/gif message to convert to sticker.```",
-        DOWNLOADING: "```Your sticker is downloading. Please wait...```",
+            "```Etiquete un mensaje de imagen/video/gif válido para convertirlo en una pegatina.```",
+        DOWNLOADING: "```Tu pegatina se está descargando. Espere por favor...```",
     },
     stoi: {
-        DESCRIPTION: "Module to convert sticker to image",
+        DESCRIPTION: "Módulo para convertir sticker a imagen",
         EXTENDED_DESCRIPTION:
-            "```Use this module to convert any sticker from your chat to an image. Reply to a sticker message with the command```  *.stoi*  ```to convert and send that sticker as an image.```",
+            "```Utilice este módulo para convertir cualquier pegatina de su chat en una imagen. Responda a un mensaje adhesivo con el comando```  *.stoi*  ```to convert and send that sticker as an image.```",
         ANIMATED_STICKER_ERROR:
-            "```Tagged sticker message is animated, ``` *Can not convert animated sticker to image*, ```Try again with a static sticker.```",
+            "```El mensaje de la etiqueta etiquetada está animado, ``` *No se puede convertir la etiqueta animada en imagen*, ```Inténtalo de nuevo con una etiqueta estática.```",
         TAG_A_VALID_STICKER_MESSAGE:
-            "```Please tag a valid sticker message to convert to an image.```",
-        DOWNLOADING: "```Your image is downloading. Please wait...```",
+            "```Etiqueta un mensaje adhesivo válido para convertirlo en una imagen.```",
+        DOWNLOADING: "```Tu imagen se está descargando. Espere por favor...```",
         ERROR:
-            "```Woops, something went wrong. Try again later, or proabaly not with this again...```",
+            "```Vaya, algo salió mal. Vuelva a intentarlo más tarde, o probablemente no vuelva a intentarlo..```",
     },
     stov: {
-        DESCRIPTION: "Module to convert animated sticker to video",
+        DESCRIPTION: "Modulo para convertir sticker animado a video",
         EXTENDED_DESCRIPTION:
-            "```Use this module to convert any animated sticker from your chat to a video. Reply to an animated sticker message with the command```  *.stov*  ```to convert and send that sticker as a video.```",
+            "```Use este módulo para convertir cualquier pegatina animada de su chat en un video. Responde a un mensaje de etiqueta animada con el comando``` *.stov* ```para convertir y enviar esa etiqueta como un video.```",
         ANIMATED_STICKER_ERROR:
-            "```Tagged sticker message is animated, ``` *Can not convert animated sticker to image*, ```Try again with a static sticker.```",
+            "```El mensaje de la etiqueta etiquetada está animado, ``` *No se puede convertir la etiqueta animada en imagen*, ```Inténtalo de nuevo con una etiqueta estática.```",
         TAG_A_VALID_STICKER_MESSAGE:
-            "```Please tag a valid animated sticker message to convert to a video.```",
-        DOWNLOADING: "```Your sticker is downloading. Please wait...```",
+            "```Etiquete un mensaje adhesivo animado válido para convertirlo en un video.```",
+        DOWNLOADING: "```Tu pegatina se está descargando. Espere por favor...```",
         ERROR:
-            "```Woops, something went wrong. Try again later, or proabaly not with this again...```",
+            "```Vaya, algo salió mal. Vuelve a intentarlo más tarde, o probablemente no vuelvas a intentarlo...```",
     },
     tr: {
-        DESCRIPTION: "Language Translator",
+        DESCRIPTION: "Traductor de idiomas",
         EXTENDED_DESCRIPTION:
-            "```Use```  *.tr <text> | <language>*  ```to translate text to the specified language. You can also reply to a text message with syntax```  *.tr <language>*  ```to translate text.\nIf you do not specify a language, it defaults to <English class=''></English>```",
-        PROCESSING: "```Translating. Please wait...```",
+            "```Use```  *.tr <texto> | <lenguaje>*  ```para traducir texto al idioma especificado. También puede responder a un mensaje de texto con la sintaxis ``` *.tr <idioma>* ```para traducir el texto.\nSi no especifica un idioma, el valor predeterminado es <English class=''></Spanish>```",
+        PROCESSING: "```Traductorio. Espere por favor 🥲...```",
         TOO_LONG:
-            "*Total characters should be less than 4000.*\n```Total characters for current input were``` ```{}.```",
-        LANGUAGE_NOT_SUPPORTED: "```Language is invalid.```",
-        INVALID_REPLY: "```Please reply to a text message.```",
-        SUCCESS: "*TR:* Translate [*{}* -> *{}*]\n\n{}",
+            "*El total de caracteres debe ser inferior a 4000.*\n```El total de caracteres para la entrada actual fue``` ```{}.```",
+        LANGUAGE_NOT_SUPPORTED: "```El idioma no es válido.```",
+        INVALID_REPLY: "```Por favor, responda a un mensaje de texto.```",
+        SUCCESS: "{}",
         NO_INPUT:
-            "```No input was detected. Please use``` *.help tts* ```for info on how to use this module.```",
+            "```No se detectó ninguna entrada. Utilice ``` *.help tts* ```para obtener información sobre cómo usar este módulo.```",
     },
     tts: {
-        DESCRIPTION: "Text To Speech.",
+        DESCRIPTION: "Texto a voz.",
         EXTENDED_DESCRIPTION:
-            "```Use```  *.tts <text>*  ```or```  *.tts <text> | <language_code>*  ```to convert text to speech.\nYou can also reply to a text message with syntax```  *.tr <language>*  ```to translate text.```",
-        PROCESSING: "```Converting text to speech. Please wait...```",
+            "```Use```  *.tts <texto>*  ```o```  *.tts <text> | <código de lenguaje>*  ```para convertir texto a voz.\nTambién puede responder a un mensaje de texto con la sintaxis ``` *.tr <idioma>* ```para traducir texto.```",
+        PROCESSING: "```Conversión de texto a voz. Espere por favor...```",
         TOO_LONG:
-            "*Total characters should be less than 200.*\n```Total characters for current input were``` ```{}.```",
+            "*El total de caracteres debe ser inferior a 200.*\n```El total de caracteres para la entrada actual fue``` ```{}.```",
         INVALID_LANG_CODE:
-            "*The Language Code was incorrect.*\n```The Language Code is generally the first two letters of the language you're trying to convert to.```",
+            "*El código de idioma era incorrecto.*\n```El código de idioma generalmente son las dos primeras letras del idioma al que está tratando de convertir.```",
         NO_INPUT:
-            "```No input was detected. Please use``` *.help tts* ```for info on how to use this module.```",
-        INCORRECT_REPLY: "```Please reply to a valid text message only.```",
+            "```No se detectó ninguna entrada. Utilice ``` *.help tts* ```para obtener información sobre cómo usar este módulo.```",
+        INCORRECT_REPLY: "```Responda solo a un mensaje de texto válido.```",
     },
     tagall: {
-        DESCRIPTION: "Module to tag evryone in a group.",
+        DESCRIPTION: "Módulo para etiquetar a todos en un grupo.",
         EXTENDED_DESCRIPTION:
-            "```Use this module to tag everyone in the group by either replying to a message or simply using```  *.tagall*  ```command.```",
-        TAG_MESSAGE: "*Everyone!*",
+            "```Use este módulo para etiquetar a todos en el grupo respondiendo a un mensaje o simplemente usando el comando ``` *.tagall* ```.```",
+        TAG_MESSAGE: "* Todos! *",
     },
     ud: {
-        DESCRIPTION: "Urban Dictionary",
+        DESCRIPTION: "Diccionario urbano",
         EXTENDED_DESCRIPTION:
-            "```Use this module to find the meaning of a word in Urban Dictionary. Enter```  *.ud*  ```command.```",
-        NO_ARG: "```Please enter the word to be search.```",
-        NOT_FOUND: "```Term``` *{}* ```Not Found!```",
-        PROCESSING: "```Searching. Please wait....```",
+            "```UUse este módulo para encontrar el significado de una palabra en Urban Dictionary. Introduzca``` *.ud* ```comando.```",
+        NO_ARG: "```Por favor ingrese la palabra a buscar.```",
+        NOT_FOUND: "```Término``` *{}* ```¡No encontrado!```",
+        PROCESSING: "```Buscando. Espere por favor....```",
     },
     unblock: {
-        DESCRIPTION: "Unblock contact",
-        EXTENDED_DESCRIPTION: "```Remove number from the blocklist.```",
+        DESCRIPTION: "Desbloquear contacto",
+        EXTENDED_DESCRIPTION: "```Eliminar número de la lista de bloqueo.```",
         NUMBER_SYNTAX_ERROR:
-            "```Enter a valid contact number. Valid syntax,\n    1. XXXXXXXXXX\n    2. Tag the person\n    3. +YYXXXXXXXXXX (YY- Country Code, without zeros)```",
-        MESSAGE_NOT_TAGGED: "```Tag a message or enter a number.```",
-        NOT_UNBLOCK_BOT: "```Bot can not unblock itself```",
+            "```Introduce un número de contacto válido. Sintaxis válida,\n    1. XXXXXXXXXX\n    2. Etiqueta a la persona\n    3. +YYXXXXXXXXXX (YY- Código de país, sin ceros)```",
+        MESSAGE_NOT_TAGGED: "```Etiqueta un mensaje o ingresa un número.```",
+        NOT_UNBLOCK_BOT: "```El bot no puede desbloquearse a sí mismo```",
     },
     unmute: {
-        DESCRIPTION: "Unmute group chat",
-        EXTENDED_DESCRIPTION: "Unmute non-admin members of a group",
+        DESCRIPTION: "Dejar de silenciar el chat grupal",
+        EXTENDED_DESCRIPTION: "Dejar de silenciar a los miembros que no son administradores de un grupo",
         NOT_GROUP_CHAT:
-            "*.unmute*  ```command is only applicable for a group chat.```",
+            "*.unmute*  ```el comando solo es aplicable para un chat grupal.```",
         NOT_ADMIN:
-            "```Sorry, dont have the permissions to do so since I am not an admin.```",
-        CHAT_ALL_MEMBERS: "```Chat permissions changed to```  *all group members*.",
+            "```Lo siento, no tengo los permisos para hacerlo ya que no soy administrador.```",
+        CHAT_ALL_MEMBERS: "```Los permisos de chat cambiaron a ``` *todos los miembros del grupo*.",
     },
     weather: {
-        DESCRIPTION: "Get weather data of a city",
+        DESCRIPTION: "Obtener datos meteorológicos de una ciudad",
         EXTENDED_DESCRIPTION:
-            "```Obtain weather info by entering the city name.```",
+            "```Obtenga información meteorológica ingresando el nombre de la ciudad.```",
         WEATHER_DATA:
-            "*Temperature:* {tempInC} °C | {tempInF} °F\n*Min Temp:* {minTempInC} °C | {minTempInF} °F\n*Max Temp:* {maxTempInC} °C | {maxTempInF} °F\n*Humidity:* {humidity}%\n*Wind:* {windSpeedInkmph} kmph | {windSpeedInmph} mph , {degree}°\n*Sunrise:* {sunriseTime}\n*Sunset:* {sunsetTime}\n\n\n*{weatherDescription}*\n{cityName} , {country}\n{dateAndTime}",
+            "*La temperatura:* {tempInC} °C | {tempInF} °F\n*Temperatura mínima:* {minTempInC} °C | {minTempInF} °F\n*Temperatura máxima:* {maxTempInC} °C | {maxTempInF} °F\n*Humedad:* {humidity}%\n*Viento:* {windSpeedInkmph} kmph | {windSpeedInmph} mph , {degree}°\n*Amanecer:* {sunriseTime}\n*Puesta de sol:* {sunsetTime}\n\n\n*{weatherDescription}*\n{cityName} , {country}\n{dateAndTime}",
         CITY_NAME_REQUIRED:
-            "```Please mention the city name to search weather data.```",
-        ERROR_OCCURED: "```Woops, cannot process this request. Try again later.```",
-        DOWNLOADING: "```Processing data. Please wait...```",
+            "```Mencione el nombre de la ciudad para buscar datos meteorológicos.```",
+        ERROR_OCCURED: "```Vaya, no se puede procesar esta solicitud. Vuelva a intentarlo más tarde.```",
+        DOWNLOADING: "```Procesando datos. Espere por favor...```",
         NOT_FOUND:
-            "```City not found. Please recheck the spelling and adhere to syntax.```",
+            "```Ciudad no encontrada. Vuelva a revisar la ortografía y respete la sintaxis.```",
     },
     welcome: {
-        DESCRIPTION: "Welcome new members to the group with a custom message.",
+        DESCRIPTION: "Dé la bienvenida a los nuevos miembros al grupo con un mensaje personalizado.",
         EXTENDED_DESCRIPTION:
-            "```New members of a group chat will be welcomed with a message. It can be an image, video, gif with caption or just a text message.\n\nUse this module to either set, update or delete the existing message.\n\nThe welcome option can be disabled but saved using the ```  *.welcome  off*  ```command. In order to delete the existing message, use```  *.welcome  delete*.  ```Do note, the welcome option is still enabled after you use the delete option.```",
-        NOT_A_GROUP: "```This command is only applicable in a group chat.```",
-        SET_WELCOME_FIRST: "```Set a welcome message first.```",
-        GREETINGS_ENABLED: "```Welcome message has been enabled.```",
-        GREETINGS_UNENABLED: "```Welcome message has been disabled.```",
+            "```Los nuevos miembros de un chat grupal serán bienvenidos con un mensaje. Puede ser una imagen, un video, un gif con subtítulo o simplemente un mensaje de texto.\n\nUse este módulo para configurar, actualizar o eliminar el mensaje existente.\n\nLa opción de bienvenida se puede deshabilitar pero se puede guardar usando el ``` *.welcome  off* ```comando. Para borrar el mensaje existente, use ``` *.welcome delete*. ```Tenga en cuenta que la opción de bienvenida aún está habilitada después de usar la opción de eliminación.```",
+        NOT_A_GROUP: "```Este comando solo es aplicable en un chat grupal.```",
+        SET_WELCOME_FIRST: "```Establece un mensaje de bienvenida primero.```",
+        GREETINGS_ENABLED: "```Se ha habilitado el mensaje de bienvenida.```",
+        GREETINGS_UNENABLED: "```El mensaje de bienvenida ha sido deshabilitado.```",
         CURRENTLY_ENABLED:
-            "```Greetings are enabled: True \nCurrently greeting new members with:```",
+            "```Los saludos están habilitados: Verdadero \nActualmente saludando a los nuevos miembros con:```",
         CURRENTLY_DISABLED:
-            "```Greetings are enabled: False \nCurrently greeting new members with:```",
-        WELCOME_DELETED: "```Welcome message deleted.```",
-        WELCOME_UPDATED: "```Welcome message updated and enabled.```",
+            "```Los saludos están habilitados: Falso \nActualmente saludando a los nuevos miembros con:```",
+        WELCOME_DELETED: "```Mensaje de bienvenida eliminado.```",
+        WELCOME_UPDATED: "```Mensaje de bienvenida actualizado y habilitado.```",
     },
     goodbye: {
-        DESCRIPTION: "A goodbye message for group chat whenever someone leaves.",
+        DESCRIPTION: "Un mensaje de despedida para el chat grupal cada vez que alguien se va.",
         EXTENDED_DESCRIPTION:
-            "```A goodbye message will be sent when any member leaves the group. It can be an image, video, gif with caption or just a text message.\n\nUse this module to either set, update or delete the existing message.\n\nThe goodbye option can be disabled but saved using the```  *.goodbye  off*  ```command. In order to delete the existing message, use```  *.goodbye  delete*.  ```Do note, the goodbye option is still enabled after you use the delete option.```",
-        NOT_A_GROUP: "```This is not a group```",
-        SET_GOODBYE_FIRST: "```Set a goodbye message first.```",
-        GREETINGS_ENABLED: "```Goodbye message has been enabled.```",
-        GREETINGS_UNENABLED: "```Goodbye message has been disabled.```",
+            "```Se enviará un mensaje de despedida cuando algún miembro abandone el grupo. Puede ser una imagen, un video, un gif con subtítulo o simplemente un mensaje de texto.\n\nUse este módulo para configurar, actualizar o eliminar el mensaje existente.\n\nLa opción de despedida se puede deshabilitar pero se puede guardar usando el ```*.goodbye  off*```comando. Para eliminar el mensaje existente, utilice ``` *.goodbye delete*. ```Tenga en cuenta que la opción de despedida aún está habilitada después de usar la opción de eliminación.```",
+        NOT_A_GROUP: "```esto no es un grupo```",
+        SET_GOODBYE_FIRST: "```esto no es un grupo.```",
+        GREETINGS_ENABLED: "```Se ha habilitado el mensaje de despedida.```",
+        GREETINGS_UNENABLED: "```El mensaje de despedida ha sido deshabilitado.```",
         CURRENTLY_ENABLED:
-            "```Greetings are enabled: True \nCurrently greeting new members with:```",
+            "```Los saludos están habilitados: Verdadero \nActualmente saludando a los nuevos miembros con:```",
         CURRENTLY_DISABLED:
-            "```Greetings are enabled: True \nCurrently greeting new members with:```",
-        GOODBYE_DELETED: "```Goodbye message deleted.```",
-        GOODBYE_UPDATED: "```Goodbye message updated and enabled.```",
+            "```Los saludos están habilitados: Verdadero \nActualmente saludando a los nuevos miembros con:```",
+        GOODBYE_DELETED: "```Mensaje de despedida eliminado.```",
+        GOODBYE_UPDATED: "```Mensaje de despedida actualizado y habilitado.```",
     },
     yt: {
-        DESCRIPTION: "Get recommendations and links from Youtube",
+        DESCRIPTION: "Obtener recomendaciones y enlaces de Youtube",
         EXTENDED_DESCRIPTION:
-            "```Get the first 10 recommendations from YouTube with their authorname, timestamp and link. Mention the keywords that are required to be searched along with the command.```",
-        REPLY: "```Obtaining the recommendations...```",
-        NO_VIDEOS: "```No videos could be found.```",
+            "```Obtenga las primeras 10 recomendaciones de YouTube con su nombre de autor, marca de tiempo y enlace. Mencione las palabras clave que deben buscarse junto con el comando.```",
+        REPLY: "```Obteniendo las recomendaciones...```",
+        NO_VIDEOS: "```No se encontraron videos.```",
         ENTER_INPUT:
-            "```Please enter the query you want to search for. Use the``` *.help yt* ```command for more info.```",
+            "```Por favor ingrese la consulta que desea buscar. Utilice el comando ``` *.help yt* ``` para obtener más información.```",
     },
 };
 

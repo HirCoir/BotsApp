@@ -84,7 +84,7 @@ const data = {
     create: {
         DESCRIPTION: "Crear un nuevo grupo con la persona a la que se respondió",
         EXTENDED_DESCRIPTION:
-            "```Este módulo creará un nuevo grupo de WhatsApp y agregará a la persona respondida en el grupo".,
+            "```Este módulo creará un nuevo grupo de WhatsApp y agregará a la persona respondida en el grupo",
         NO_TEXT: "```Introduce el nombre del grupo```",
         TAG_PERSON: "```Responder a la persona que debe ser incluida en el grupo```",
         GROUP_CREATED: "```El grupo ha sido creado con éxito.```",

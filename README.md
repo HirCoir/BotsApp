@@ -43,7 +43,7 @@ npm start
 git clone https://github.com/HirCoir/BotsApp
 cd BotsApp
 docker build -t botsapp .
-docker exec -it -d --restart always --name botsapp  botsapp
+docker run -it -d --restart always --name botsapp  botsapp
 ```
 
 Esto creará un contenedor que ejecuta BotsApp. Tendrá que escanear el QR al menos una vez.

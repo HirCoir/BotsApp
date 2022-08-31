@@ -1,21 +1,24 @@
-FROM princemendiratta/botsapp:latest
+FROM debian:11
 
-WORKDIR /
+# Instalar paquetes necesarios para el contenedor
+RUN apt-get update
+RUN apt-get install -y \
+	curl \
+	sudo \
+	wget \
+	bash \
+	git \
+	ffmpeg
 
-COPY . /BotsApp
+# Instalar Nodejs 16
+RUN curl -s https://deb.nodesource.com/setup_16.x | sudo bash
+RUN apt install nodejs
 
-WORKDIR /BotsApp
+WORKDIR /app
+# Instala el Bot
+COPY ./ ./
+RUN npm i
+RUN npm install i ytdl-core@latest
 
-RUN git init --initial-branch=multi-device
+CMD ["npm", "start"]
 
-RUN git remote add origin https://github.com/BotsAppOfficial/BotsApp.git
-
-RUN git fetch origin multi-device
-
-RUN git reset --hard origin/multi-device
-
-RUN yarn
-
-# RUN cp -r /root/Baileys/lib /BotsApp/node_modules/@adiwajshing/baileys/
-
-CMD [ "npm", "start"]
